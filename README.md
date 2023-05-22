@@ -1,5 +1,24 @@
 # Store Monitor API
 
+## TABLE OF CONTENTS
+<b> [1. Introduction](https://github.com/yusha-g/Store-Monitor-API#1-introduction)  </b> <br/>
+
+<b> [2. Implementation](https://github.com/yusha-g/Store-Monitor-API#2-implementation)  </b> <br/>
+&nbsp;&nbsp;&nbsp;[2.1. Global Variables](https://github.com/yusha-g/Store-Monitor-API#21-global-variables) <br/>
+&nbsp;&nbsp;&nbsp;[2.2. Functions](https://github.com/yusha-g/Store-Monitor-API#22-functions) <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Jump to: Interpolation & Uptime, Downtime calculation](https://github.com/yusha-g/Store-Monitor-API#227-interpolate_status) <br/>
+&nbsp;&nbsp;&nbsp;[2.3. API Endpoints](https://github.com/yusha-g/Store-Monitor-API#23-api-endpoints) <br/>
+
+<b> [3. Outputs and Results](https://github.com/yusha-g/Store-Monitor-API#3-outputs-and-results)  </b> <br/>
+&nbsp;&nbsp;&nbsp;[3.1. Results](https://github.com/yusha-g/Store-Monitor-API#31-results) <br/>
+&nbsp;&nbsp;&nbsp;[3.2. Video Demonstration](https://github.com/yusha-g/Store-Monitor-API#32-output-demonstration) <br/>
+
+<b> [4.Installation and Running Guide](https://github.com/yusha-g/Store-Monitor-API#4-installation-and-running-guide)  </b> <br/>
+&nbsp;&nbsp;&nbsp;[4.1. Installing Dependencies](https://github.com/yusha-g/Store-Monitor-API#41-installing-dependencies) <br/>
+&nbsp;&nbsp;&nbsp;[4.2. Running the Application](https://github.com/yusha-g/Store-Monitor-API#42-running-the-application) <br/>
+
+
+
 # 1. Introduction
 
 ## 1.1. Problem Statement
