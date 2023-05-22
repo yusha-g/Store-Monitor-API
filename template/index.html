@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="/static/style.css" type="text/css" />
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}" type="text/css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <title>Store Monitor API</title>
+  </head>
+<body>  
+    <div class="row header">
+        <span class="heading">Store Monitor API</span>
+        <span class="dp">
+            <span class="dev-info">
+                Pratyush Ghosh <br>
+                21/05/23
+            </span>
+        </span>
+        
+    </div>
+    
+    <div class="row">
+        <div class="card blue-grey darken-1">
+            <div class="card-content white-text">
+              <span class="card-title">API Endpoints</span>
+              <table>
+                <tr>
+                    <td>/trigger_report</td>
+                    <td>Trigger report generation. Corresponding report_id will be displayed below.</td>
+                </tr>
+                <tr>
+                    <td>
+                        /get_report/{report_id}
+                    </td>
+                    <td>
+                        Show the status of the report corresponding to the report_id
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        /csv_update
+                    </td>
+                    <td>
+                        Trigger constant monitoring of the data source CSVs. <br>
+                        Check for new records in the CSVs every hour and automatically insert them in the database.
+                    </td>
+                </tr>
+              </table>
+            </div>
+          </div>
+    </div>
+    <div class="row">
+        <table>
+            <th>{{ report_lst[0] }}</th>
+            {% for i in range(1,report_lst|length) %}
+                <tr>
+                    <td>{{ report_lst[i] }}</td>
+                </tr>
+            {% endfor %}
+        </table>
+    </div>
+
+    
+    
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+</body>
+</html>
