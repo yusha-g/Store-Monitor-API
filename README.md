@@ -178,12 +178,16 @@ If it is was previously generated, regenerate it, else continue.
     - A download link to download the generated report_id
     - A preview of the generated csv with it’s top 20 records.
 - While newer reports are generating, previously generated reports can also be accessed using their report IDs.
+- A sample output file named report_fd86ecaf19aa0f2d.csv is also provided in the repository
+
 
 ## 3.2. Output Demonstration
 [please enable audio]
 
 https://github.com/yusha-g/Store-Monitor-API/assets/110189579/b8a9f837-2e7e-4180-978c-ce832620dd24
 
+- Sample output file: [report_fd86ecaf19aa0f2d.csv](https://github.com/yusha-g/Store-Monitor-API/blob/main/report_fd86ecaf19aa0f2d.csv)
+- Note: Number of csv records has been limited to 3000 records due to inability to upload the file because of excessive size.
 
 # 4. Installation and Running Guide
 
