@@ -180,7 +180,7 @@ If it is was previously generated, regenerate it, else continue.
 - While newer reports are generating, previously generated reports can also be accessed using their report IDs.
 
 ## 3.2. Output Demonstration
-
+[please enable audio]
 
 https://github.com/yusha-g/Store-Monitor-API/assets/110189579/b8a9f837-2e7e-4180-978c-ce832620dd24
 
